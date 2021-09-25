@@ -14,5 +14,4 @@ const logoutSession = async (event) => {
         alert(response.statusText);
     }
 }
-
 logoutBtn.addEventListener("click", logoutSession);

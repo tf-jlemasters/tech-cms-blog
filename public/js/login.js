@@ -62,6 +62,5 @@ const signupFormHandle = async (event) => {
         alert(response.statusText);
     }
 }    
-
 loginForm.addEventListener("submit", loginFormHandle);
 signupForm.addEventListener("submit", signupFormHandle);

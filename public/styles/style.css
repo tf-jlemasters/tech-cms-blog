@@ -1,12 +1,10 @@
 * {
     font-family: Lucida, sans-serif;
 }
-
 a {
     text-decoration: none;
     color: black
 }
-
 nav {
     display: flex;
     flex-direction: row;
@@ -15,12 +13,10 @@ nav {
     background-color: rgb(59, 19, 1);
     margin: 1rem;
 }
-
 nav a{
     color: white;
     font-size: 2rem;
 }
-
 .container{
     display: flex;
     flex-direction: column;
@@ -29,7 +25,6 @@ nav a{
     margin: 0% 20%;
     background-color: rgb(107, 4, 4);
 }
-
 .card{
     display: flex;
     flex-direction: column;

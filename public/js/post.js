@@ -25,5 +25,4 @@ const newPost = async (event) => {
         }
     }
 }
-
 newPostForm.addEventListener("submit", newPost);

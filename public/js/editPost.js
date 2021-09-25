@@ -38,6 +38,5 @@ const updatePost = async (event) => {
         alert("Failed to update the post!");
     }
 }
-
 deleteBtn.addEventListener("click", deletePost);
 updateForm.addEventListener("submit", updatePost)
