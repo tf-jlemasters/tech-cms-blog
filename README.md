@@ -1,6 +1,6 @@
 
 # **Tech Blog**
-https://dashboard.heroku.com/apps/techblog-lemasters
+https://techblog-lemasters.herokuapp.com/
 ## Description 
 A CMS style blog similar to a Wordpress site, where developers can publish their blog posts and comment on other posts as well. Following the MVC paradigm, using handlebars, and sequelize.
 ## Table of contents
