@@ -9,13 +9,11 @@ router.post("/", async (req, res) => {
         if(!user_id || ! post_id || !content){
             res.json({message: "Insufficient Data"})
         }
-
         const newComment = await Comment.create({
             content,
             post_id,
             user_id
         })
-
         res.status(200).json(newComment)
 
     } catch (err){ 

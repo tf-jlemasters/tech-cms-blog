@@ -28,14 +28,12 @@ router.get("/", async (req, res) => {
         res.status(500).end()
     }
 })
-
 //edit a post
 router.get("/singlepost/:id", async (req, res) =>{
     try{
         const postDbData = await Post.findByPk(req.params.id, {
             attributes: ["id", "title", "content"]
         })
-
         const postData = postDbData.get({plain:true});
         console.log(postData)
 
@@ -47,7 +45,6 @@ router.get("/singlepost/:id", async (req, res) =>{
         res.status(500).json(err)
     }
 })
-
 //post to the dashboard
 router.post("/", async (req, res) => {
     
@@ -66,7 +63,6 @@ router.post("/", async (req, res) => {
         res.status(400).json(err)
     }
 })
-
 //update post after it's been made
 router.put("/singlepost/:id", async (req, res) => {
     const {title , content} =  req.body;
@@ -88,7 +84,6 @@ router.put("/singlepost/:id", async (req, res) => {
         res.status(500).json(err)
     }
 })
-
 router.delete("/:id", async (req, res) => {
     try{
         const deleteRequest = await Post.destroy({
@@ -96,7 +91,6 @@ router.delete("/:id", async (req, res) => {
                 id: req.params.id
             }
         })
-
         res.status(200).json(deleteRequest);
     }catch(err){
         res.status(500).json(err);
