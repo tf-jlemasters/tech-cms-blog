@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jacklemasters/tech-blog#readme",
   "dependencies": {
+    "connect-session-sequelize": "^7.1.2",
     "exphbs": "^1.2.0",
     "express": "^4.17.1",
     "path": "^0.12.7",

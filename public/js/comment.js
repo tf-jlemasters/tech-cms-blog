@@ -21,7 +21,6 @@ const newCommentHandler = async (event) => {
             alert("Failed to create the comment!")
         }
     }
-
 }
 const form = document.querySelector("#comment-form");
 
