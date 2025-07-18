@@ -24,7 +24,7 @@
     "exphbs": "^1.2.0",
     "express": "^4.21.2",
     "express-handlebars": "^5.3.4",
-    "express-session": "^1.17.2",
+    "express-session": "^1.18.2",
     "mysql2": "^3.9.8",
     "path": "^0.12.7",
     "routers": "^0.1.4",
